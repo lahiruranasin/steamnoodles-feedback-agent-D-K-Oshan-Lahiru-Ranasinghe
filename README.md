@@ -121,42 +121,54 @@ Update all hardcoded file paths (CSV, ENV, PDF, PNG) in the scripts from E:\Agen
 # UI and Output plots
 # Feedback Response Agent
 Feedback Response Agent UI
+
 <img width="753" height="599" alt="Screenshot 2025-08-17 231507" src="https://github.com/user-attachments/assets/54fd713a-b089-48dc-b000-72839c257418" />
 
 Popup Message to inform cvs update
+
 <img width="1077" height="608" alt="Screenshot 2025-08-17 231536" src="https://github.com/user-attachments/assets/bc1ee630-f20d-46c0-8565-fa08e9c32905" />
 
 Agent respone and sentiment
+
 <img width="714" height="203" alt="Screenshot 2025-08-17 231548" src="https://github.com/user-attachments/assets/e59660ed-ab2d-42dc-9125-1529fb7bef0f" />
 
 Updated dataset(csv file)
+
 <img width="1919" height="1018" alt="Screenshot 2025-08-17 231631" src="https://github.com/user-attachments/assets/32d4e166-1c36-4b72-962c-adfec3e13809" />
 
 Updated row
+
 <img width="367" height="21" alt="Screenshot 2025-08-17 231637" src="https://github.com/user-attachments/assets/9114b54c-d165-4357-924c-669e9a43c62f" />
 
 
 
 # Sentiment Visualization Agent
 Sentiment Visualization Agent UI
+
 <img width="751" height="528" alt="Screenshot 2025-08-17 231220" src="https://github.com/user-attachments/assets/e6a3b798-abb5-4163-af27-def8d0a8a475" />
 
 Visualization of plots(Figure 1)
+
 <img width="1919" height="1019" alt="Screenshot 2025-08-17 231259" src="https://github.com/user-attachments/assets/254c170e-a38b-46ae-8ad5-0e4f6b0683df" />
 
 Popup Message of exported pdf
+
 <img width="329" height="181" alt="Screenshot 2025-08-17 231317" src="https://github.com/user-attachments/assets/ff77be8d-d378-4d28-a6f2-53311adb0ec5" />
 
 Agent response Timestamp and date range
+
 <img width="1919" height="1014" alt="Screenshot 2025-08-17 231341" src="https://github.com/user-attachments/assets/a0f0ce3f-605b-4672-839c-9c6d0e2a9694" />
 
 Exported PDF and png files of figure 1
+
 <img width="781" height="68" alt="Screenshot 2025-08-17 231359" src="https://github.com/user-attachments/assets/5dd36b66-9eb3-41a2-b356-fd32e59a6b6e" />
 
 PNG File
+
 <img width="1916" height="1017" alt="Screenshot 2025-08-17 231411" src="https://github.com/user-attachments/assets/04ba39e5-d3e8-4912-b067-8c02d03dd4a8" />
 
 PDF File
+
 <img width="1919" height="1021" alt="Screenshot 2025-08-17 231424" src="https://github.com/user-attachments/assets/88bef290-1c03-4037-ac2e-c20b5400f6dd" />
 
 
