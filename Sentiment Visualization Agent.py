@@ -17,19 +17,19 @@ from langchain.tools import Tool
 from langchain_openai import ChatOpenAI
 
 # -------------------------------------------------
-# 🔐 Load Environment
+#  Load Environment
 # -------------------------------------------------
 load_dotenv(r"E:\Agent X\agent2.env")  # Contains OPENROUTER_API_KEY
 api_key = os.getenv("OPENROUTER_API_KEY")
 
 # -------------------------------------------------
-# 📅 Current Date
+#  Current Date
 # -------------------------------------------------
 current_date = time.strftime("%Y-%m-%d")
 print("Local date:", current_date)
 
 # -------------------------------------------------
-# 🤖 Initialize LLM
+#  Initialize LLM
 # -------------------------------------------------
 llm = ChatOpenAI(
     model="nousresearch/deephermes-3-llama-3-8b-preview:free",
@@ -53,7 +53,7 @@ plotting_tool = Tool(
 )
 
 # -------------------------------------------------
-# 🤝 Agent Initialization
+#  Agent Initialization
 # -------------------------------------------------
 agent = initialize_agent(
     tools=[plotting_tool],
@@ -63,7 +63,7 @@ agent = initialize_agent(
 )
 
 # -------------------------------------------------
-# 🧩 Parser Utility
+#  Parser Utility
 # -------------------------------------------------
 def process_agent_result(result_text: str) -> dict:
     data = {}
@@ -209,3 +209,4 @@ chart_frame = tk.Frame(root)
 chart_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
 root.mainloop()
+
