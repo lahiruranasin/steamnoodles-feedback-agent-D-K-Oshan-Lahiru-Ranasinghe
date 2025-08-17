@@ -1,6 +1,9 @@
 # Name - D K Oshan Lahiru Ranasinghe
 # University - NSBM Green University
 # Year - Second Year
+# Project Title -  Automated Restaurant Feedback Agent – SteamNoodles
+# Event - Agent X by Leo Club of University of Moratuwa
+
 # 🍜 SteamNoodles Feedback Agent  
 
 An AI-powered **multi-agent system** for automating restaurant customer feedback analysis and visualization, built for the **SteamNoodles** restaurant chain.  
