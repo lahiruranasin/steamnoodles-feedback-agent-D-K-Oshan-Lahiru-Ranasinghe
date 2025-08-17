@@ -1,4 +1,4 @@
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "YOUR_GROQ_API_KEY"
 
 import os
 from dotenv import load_dotenv
@@ -134,3 +134,4 @@ output_text = scrolledtext.ScrolledText(root, width=70, height=15, state=tk.DISA
 output_text.pack(padx=10, pady=5)
 
 root.mainloop()
+
