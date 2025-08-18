@@ -55,7 +55,7 @@ def detect_sentiment(feedback: str):
         sentiment_result = llm.invoke(sentiment_prompt).content.strip()
         sentiment_result = sentiment_result.split()[0].capitalize()
 
-        if sentiment_result in ["Positive", "Negative", "Neutral"]:
+        if sentiment_result in ["positive", "negative", "neutral"]:
             return sentiment_result
     except Exception as e:
         print(f"[Warning] LLM sentiment failed, falling back to keywords. Error: {e}")
@@ -73,11 +73,11 @@ def detect_sentiment(feedback: str):
     has_negative = any(word in feedback_lower for word in negative_keywords)
 
     if has_positive and not has_negative:
-        return "Positive"
+        return "positive"
     elif has_negative and not has_positive:
-        return "Negative"
+        return "negative"
     else:
-        return "Neutral"
+        return "neutral"
 
 # CSV file path
 csv_file = r"E:\Agent X\feedback_dataset.csv"
@@ -134,4 +134,5 @@ output_text = scrolledtext.ScrolledText(root, width=70, height=15, state=tk.DISA
 output_text.pack(padx=10, pady=5)
 
 root.mainloop()
+
 
